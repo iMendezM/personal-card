@@ -92,7 +92,33 @@
 .article-div {
     text-align: center;
 }
+.article-portafolio {
+    font-weight: 800;
+    text-transform: uppercase;
+    color: transparent;
+    font-size: 40px;
+    background: url(./img/fondo1.jpg);
+    background-position: 0% 50%;
+    -webkit-background-clip: text;
+    position: relative;
+    text-align: center;
+    line-height: 80px;
+}
+
+.galeria {
+    position: relative;
+    text-align: center;
+}
 
 .footer {
     text-align: center;
+}
+.footer-boton-top {
+    text-decoration: none;
+    color: #9f9f9f;
+    
+}
+.footer-boton-top:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
